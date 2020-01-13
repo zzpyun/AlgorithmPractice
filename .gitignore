@@ -21,3 +21,33 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+## ignore maven target
+**/target/
+**/bin/
+
+## ignore eclipse files
+**/.settings/
+**/.project
+**/.classpath
+
+
+## ignore intelliJ files
+*/.idea/
+.idea/
+*.iml
+*/*.iml
+
+
+## ignore mac files
+*/.DS_Store
+.DS_Store
+
+
+## ignore tmp and swp files
+*.bak
+*.tem
+*.temp
+*.*~
+~*.*
